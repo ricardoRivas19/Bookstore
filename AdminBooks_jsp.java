@@ -392,6 +392,7 @@ public class AdminBooks_jsp extends HttpJspBase {
         if ( (o1.toString()).equals("")) { bRedirect = true; }
         else if ( (new Integer(o2.toString())).intValue() < iLevel) { bRedirect = true; }
       }
+      
 
     /*   if ( bRedirect ) {
         response.sendRedirect("Login.jsp?querystring=" + toURL(request.getQueryString()) + "&ret_page=" + toURL(request.getRequestURI()));
